@@ -4,9 +4,8 @@ def frecuencia_palabras():
     frecuencia = {}
     for palabra in palabras:
         if palabra in frecuencia:
-            frecuencia [palabra] += 1
+            frecuencia[palabra]+=1
         else:
-         frecuencia [palabra] = 1
-    return (frecuencia)
-
+            frecuencia[palabra]=1  
+    return frecuencia
 frecuencia_palabras()
