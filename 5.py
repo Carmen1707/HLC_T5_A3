@@ -8,4 +8,5 @@ def frecuencia_palabras():
         else:
             frecuencia[palabra]=1  
     return frecuencia
-frecuencia_palabras()
+fin = frecuencia_palabras()
+print(fin)
