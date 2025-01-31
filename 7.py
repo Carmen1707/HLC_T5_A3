@@ -1,7 +1,8 @@
-def divisores(n = 12):
+def divisores(n):
     resultado = []
     for i in range(1, n + 1):
         if n % i == 0:
             resultado.append(i)
     return resultado 
-divisores()
+FIN = divisores(12)
+print(FIN)
